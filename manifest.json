@@ -14,7 +14,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://*/*/cart/view.html*"],
+        "matches": ["https://www.amazon.in/s?*"],
         "js": ["script.js"]
       }
     ],

@@ -4,6 +4,8 @@ let utils = {};
   utils = await import(utilsSrc);
 })();
 
+console.log('On the search page, script.js is running!')
+
 const getCart = () => {
   const cart = Array.from(
     document.querySelectorAll("#sc-active-cart .sc-list-item-content") || []
